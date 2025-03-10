@@ -1,4 +1,40 @@
 /* место для вашего кода */
+header {
+    padding: 92px 50px 96px 50px;
+    display:grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-underline-offset: 4px;
+    nav {
+        ul {
+            display: flex;
+            gap: 30px;
+            list-style: circle;
+            li:first-child {
+                list-style: none;
+            }
+        }
+    }
+}
+adress {
+    justify-self: end;
+    line-height: 24.3px;
+    max-width: 240px;
+    padding-right: 10px;
+    ul {
+        list-style: none;
+    }
+}
+.main_logo {
+    display: block;
+    img {
+        display: block;
+        width: 136px;
+    }
+}
+    
 .cover {
 
 }
@@ -18,3 +54,4 @@
 .social {
 
 }
+
