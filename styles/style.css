@@ -13,7 +13,7 @@ header {
     nav {
         ul {
             display: flex;
-            gap: 31px;
+            gap: 33px;
             list-style: circle;
             li:first-child {
                 list-style: none;
@@ -83,8 +83,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    word-spacing: 19px;
-    letter-spacing: 0;
+    word-spacing: 18px;
+    letter-spacing: 0.1px;
+    /* padding-top: 1px; чуть уменьшаем погрешность */
+    padding-top: 1px;
     button {
         height: 50px;
         width: 256px;
